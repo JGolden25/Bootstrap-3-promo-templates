@@ -1,0 +1,76 @@
+body {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+  }
+  
+  .btn-footer-orange {
+      background-color: #CF4B00;
+      color: #fff;
+      border-radius: 5px;
+  padding: 16px;
+  border: 0;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+  }
+
+  .need-help {
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+  }
+
+  #chat-icon {
+    color: #fff;
+    padding-left: 15px;
+    display: center;
+  }
+
+  #calendar-icon {
+    /* height: 12%;
+    width: 12%; */
+    color: #fff;
+    padding-left: 15px;
+    display: center;
+}
+
+#play-icon { 
+    color: #fff;
+    /* height: 25px;
+    width: 25px; */
+    padding-left: 15px;
+    display: center;
+}
+
+@media (max-width: 1000px) {
+    .btn-footer-orange {
+        width: 100%;
+    }
+
+    #chat-icon {
+        color: #fff;
+        float:right;
+        display: center;
+      }
+    
+      #calendar-icon {
+        /* height: 12%;
+        width: 12%; */
+        color: #fff;
+        float:right;
+        display: center;
+    }
+    
+    #play-icon { 
+        color: #fff;
+        /* height: 25px;
+        width: 25px; */
+        float:right;
+        display: center;
+    }
+}

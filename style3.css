@@ -1,0 +1,204 @@
+.container-fluid {
+    border: 10px solid rgb(245, 245, 245);;
+    border-radius: 16px;
+}
+
+.jumbotron {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  /* height: 300px; */
+  }
+
+  .text-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parent {
+      display: column;
+      justify-content: center;
+      align-items: center;
+      /* width: 100%; */
+      /* background-color: red; */
+  }
+
+  .parent h1 {
+    /* margin-left: 65px; */
+    /* font-size: 3.5em; */
+  }
+
+  .btn-pill {
+      background-color: rgb(247, 21, 21);
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 24px;
+  width: 295px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-bottom: 15px;
+  }
+
+  .button-row {
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .myclass{
+    display:inline-block;
+    width: 80px;
+    height: 40px;
+}
+
+.save-row-parentl {
+    margin-left:35px;
+}
+
+.save-row-parentr {
+    margin-right:35px; 
+}
+
+.dollar {
+    font-size: 15rem;
+    margin-left: 65px;
+}
+
+.adj {
+    font-size: 9rem;
+    margin-left:170px;
+}
+
+.parent h5 {
+    font-size: 15px;
+    letter-spacing: 1rem;
+}
+
+.dollar-sm {
+    font-size: 6rem;
+    margin-top: 0px;
+}
+
+.adj-sm {
+    margin-left: 22px;
+}
+
+.on-sm {
+    letter-spacing: .75rem;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .save-row-parentl {
+        margin-left:0px;
+    }
+    
+    .save-row-parentr {
+        margin-right:0px; 
+    }
+    .parent h5 {
+        font-size: 15px;
+        letter-spacing: .5rem;
+        margin-left: 75px;
+    }
+
+    .adj {
+        font-size: 9rem;
+        margin-left:155px;
+    }
+
+    .dollar {
+        font-size: 15rem;
+        margin-right: 60px;
+    }
+       
+   }
+
+   @media (max-width: 500px) {
+    .save-row-parentl {
+        margin-left:0px;
+    }
+    
+    .save-row-parentr {
+        margin-right:0px; 
+    }
+    .parent h5 {
+        font-size: 15px;
+        letter-spacing: .21rem;
+        margin-left: 75px;
+    }
+
+    .adj {
+        font-size: 6rem;
+        margin-left:155px;
+    }
+
+    .dollar {
+        font-size: 12rem;
+        margin-right: 60px;
+    }
+       
+   }
+   @media (max-width: 375px) {
+
+    .parent h5 {
+        font-size: 15px;
+        letter-spacing: .21rem;
+        margin-left: 63px;
+    }
+
+    .adj {
+        font-size: 5rem;
+        margin-left:155px;
+    }
+
+    .dollar {
+        font-size: 11rem;
+        margin-right: 60px;
+    }
+
+
+    .on-sm {
+        letter-spacing: .50rem;
+        margin-left: 5px;
+        margin-left: 15px;
+    }
+       
+   }
+
+   @media (max-width: 320px) {
+
+    .parent h5 {
+        font-size: 15px;
+        letter-spacing: .04rem;
+        margin-left: 63px;
+    }
+
+    .adj {
+        font-size: 3rem;
+        margin-left:155px;
+    }
+
+    .dollar {
+        font-size: 9rem;
+        margin-right: 60px;
+    }
+
+
+    .on-sm {
+        letter-spacing: .50rem;
+        margin-left: 5px;
+        margin-left: 15px;
+    }
+       
+   }
